@@ -1,8 +1,30 @@
 aid: apollo-atomics-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollo-atomics-inc.png
 name: Apollo Atomics Inc
-description: Apollo Atomics Inc is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear technology
+  company building compact, power-dense pressurized water reactors for electricity
+  generation, industrial process heat, and data-center power. Founded by Assil Halimi
+  and Drew Walker and based in Cambridge, Massachusetts, the company modifies the
+  steam generator of proven pressurized water reactor technology to shrink the plant
+  by roughly an order of magnitude without sacrificing power output, turning a
+  decade-long construction project into a factory-built machine that can ship on a
+  truck. Apollo has announced a research collaboration with MIT's Department of
+  Nuclear Science and Engineering to validate its reactor design and has submitted a
+  regulatory engagement plan to the U.S. Nuclear Regulatory Commission, targeting a
+  construction permit application in 2028. This is a hardware/energy company with no
+  public developer or API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/apollo-atomics-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +37,28 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Energy
+- Nuclear
+- Reactors
+- Clean Energy
+- Deep Tech
+- Hardware
+- Climate
 apis: []
+common:
+- type: DomainSecurity
+  url: security/apollo-atomics-inc-domain-security.yml
+- type: Website
+  url: https://www.apolloatomics.com/
+- type: Support
+  url: mailto:contact@apolloatomics.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
