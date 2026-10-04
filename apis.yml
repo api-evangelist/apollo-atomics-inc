@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollo-atomics-inc.png
-name: Apollo Atomics Inc
+name: Apollo Atomics
 description: >-
   Apollo Atomics is a Y Combinator-backed (Spring 2026 / P26) nuclear technology
   company building compact, power-dense pressurized water reactors for electricity
@@ -73,3 +73,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Apollo Atomics Inc
